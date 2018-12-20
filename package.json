@@ -1,0 +1,36 @@
+{
+  "name": "ant-decimal-input",
+  "version": "0.0.2",
+  "description": "an input limit only for decimal base on antd",
+  "main": "lib/index",
+  "scripts": {
+    "build": "rimraf lib && babel ./src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimCN/ant-decimal-input.git"
+  },
+  "keywords": [],
+  "author": "tim huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimCN/ant-decimal-input/issues"
+  },
+  "files": [
+    "*.md",
+    "docs",
+    "lib"
+  ],
+  "homepage": "https://github.com/TimCN/ant-decimal-input#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "antd": "^2.0.0|^3.0.0",
+    "react": "^15.0.0|^16.0.0"
+  }
+}
